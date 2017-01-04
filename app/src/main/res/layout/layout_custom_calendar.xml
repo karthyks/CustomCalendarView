@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:id="@+id/layout_week_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_week_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"/>
+        <include layout="@layout/layout_dates"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_week_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_week_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"/>
+        <include layout="@layout/layout_dates"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_week_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_week_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"/>
+        <include layout="@layout/layout_dates"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_week_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_week_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"/>
+        <include layout="@layout/layout_dates"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_week_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_week_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"/>
+        <include layout="@layout/layout_dates"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_week_6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_week_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"/>
+        <include layout="@layout/layout_dates"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_week_7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_week_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"/>
+        <include layout="@layout/layout_dates"/>
+
+    </LinearLayout>
+</LinearLayout>
